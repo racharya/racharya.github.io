@@ -7,8 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://racharya.github.io" # the base hostname & protocol for your site
-twitter_username: @rachanacharya
-github_username:  racharya
+#twitter_username: @rachanacharya
 
 
 # Build settings
