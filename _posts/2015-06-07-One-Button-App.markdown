@@ -21,5 +21,5 @@ Here's to the future of more awesome apps!
 [RW]: http://www.raywenderlich.com
 [SWLANG]: https://developer.apple.com/swift/
 [EE]: http://coen.boisestate.edu/ece/
-[APPIMG]: /assets/OneButtonApp.png
+[APPIMG]: /images/OneButtonApp.png
 [RWTUT]: http://www.raywenderlich.com/store/ios-apprentice
