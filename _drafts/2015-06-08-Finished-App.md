@@ -1,15 +1,40 @@
 ---
 layout: post
-title:  "Finished App"
-date:   2015-06-078
+title:  "Bull's Eye - My First Real iOS App"
+date:   2015-06-08
 
 ---
 
-It has been about 3 weeks and I have successfully completed building the first app- Bull's Eye game (this also means I have completed the iOS getting started book, YAY!!). This game is a guessing game where you want to put the Bull's eye as close as to the number given in the screen. The game is mainly composed of buttons, labels, and slider which work together to make this game an actual game.
+It has been about 3 weeks ever since I [started learning iOS app development][1]. After a *"Hello, World"* app it was time to build something that looked real and more "professional". After spending about 1 week flipping the pages of the PDF book in `Preview`, now I have successfully completed building my first iOS game - **Bull's Eye** . This also means I have completed the iOS getting started book from [iOS Apprentice Tutorials][2], YAY!!. 
 
-I simply followed the book in building this app. We first started building this app by making a one button app which simply pops up an alert with a title and message. Then we move forward by putting all the UIcontrollers in the screen and modify the text in each labels. Then we moved into making one thing work at a time. This is where we used swift a lot. Everytime something is written using swift, the book goes over it and explains in great deal. This helped me understand what we did and why.  We kept building each controllers functions and then move into making it look pretty using colors, images, etc.Making it look pretty not only involved color but also paying attentions to the lunch screen, transition from lunch screen to the actual game, game name, game icon etc. I can't wait to show you the beautiful thing I have worked on for past couple weeks.
+**Bull's Eye** game is a stupidly simple guessing game where you're trying to put the Bull's eye as close as to a random number given on the screen. The game is mainly composed of `UIButtons`, `UILabels`, and a `UISlider` which work together to make this game an actual playable game. It may not be as addictive as *Candy Crush* but it is actually fun to play for few minutes.
+
+Starting with a one button app which simply popped up an alert with a title and a message, the book teaches how to put all the user controls using the awesome `Interface Builder` and binding the controls to one 'UIViewController', where all the code goes. After adding all the logic one by one, I moved into making it look pretty using colors, images, fine tuning padding and margins etc. Making it look pretty involved not only adjusting colors and images but also paying attentions to the lunch screen, transition from lunch screen to the actual game, name appearance underneath the icon, game icon itself etc. So my dear readers, here is an actual screenshot from my first ever iOS game:
+
 ![][APPIMG]
 
-It is really something to have an app work just the way you expect it. Same was with me. I was very happy to see how the lame app turned into something exciting to play. If you get stuck anywhere in developing this app, there is author's resource files (comes with the book) to take advantage of. Even the author mentions about it at different points in the development.I did not have to refer to author's files to be honest because the book is that good. At the end of the first tutorial, I learned a lot of things about swift, Xcode, ViewControllers, Interface builders, how to make great apps, how to write code effectively, and how to think like a programmer. I have completed this app and I can't wait to start on the next tutorial. Because swift has just started making sense to me. 
+<br/>
+It looks pretty, isn't it?
 
-[APPIMG]/assets/BullsEye_Final.png
+It is really amazing to have an app work just the way you expected it. Same was with me. I was very happy to see how a lame app turned into something exciting to play. Here is what it looked like before:
+
+![][DRAFTIMG]
+
+<br/>
+
+## The iOS Apprentice Book = Awesomeness!!
+
+I cannot say enough about how good [the iOS Apprentice Book][2] is. It gently introduces programming concepts and makes a tremendous effort at teaching Swift. The book is not just for learning iOS development, but is also very good at teaching coding in general and Swift in particular. This helped me understand not just what we did but also why. The book makes an amazing effort to fine tuning tiny UI details and even has a whole chapter dedicated to it. The time, efforts, and patience shown by the author, [Matthijs Hollemans][3], in explaining every details is just mind blowing. I've not read such a good technical book in a long time. I highly recommend this book for learning iOS development as well as polishing your programming skills.
+
+Another cool thing about the book is that if you get stuck anywhere while developing this app, there are author's resource files (comes with the book) to take advantage of. Even the author mentions about it at different points in the book. I did not have to refer to those files to be honest, mainly because the book is that good.
+
+
+## Next
+
+I've only finished first tutorial but I've already learned a lot things such as `Swift`, `Xcode`, `UIViewControllers`, `Interface Builder` etc as well as how to make great apps, how to write code effectively, and how to think like a programmer. Now that I have completed this app, I can't wait to start on the next one - making a real Checklist app. How exciting is that? I also have to admit - I'm falling in love with the expressiveness and cleaner syntax of Swift language. 
+
+[APPIMG]: /images/BullsEye_Final.png
+[DRAFTIMG]: /images/BullsEye_Draft.png
+[1]: http://racharya.github.io/2015/06/01/One-Button-App.html
+[2]: http://www.raywenderlich.com/store/ios-apprentice
+[3]: http://matthijshollemans.com
